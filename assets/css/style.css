@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    color: rgb(84, 80, 80);
+    text-align: center;
+    font-size: 99px;
+    background-color: beige;
+    padding: 30px;
+}
+
+.main-container {
+    width: 960px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#leftBlock {
+    background-color: aqua;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+#centerBlock {
+
+}
+
+#centerBlock img {
+    width: 80px;
+    height: auto;
+    margin: 5px 10px;
+}
+
+#rightBlock {
+    background-color: aqua;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+#scoreBox {
+    background-color: rgb(84, 80, 80);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 30px;
+}
+
+#randomTargetCounter {
+    font-size: 45px;
+}
+
+#userScoreCounter {
+    font-size: 45px;
+}

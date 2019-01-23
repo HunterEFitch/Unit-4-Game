@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <audio id="audio" src="assets/sounds/Ding - Sound Effects YouTube.wav" ></audio>
+    <title>Starter Pack</title>
+</head>
+
+<body>
+    <h1>Crystal Collector!</h1>
+
+    <div class="container main-container">
+        <div class="row">
+            <div class="col-lg-3" id="leftBlock">
+                <div>TARGET SCORE:</div>
+                <div id="randomTargetCounter">0</div>
+            </div>
+            <div class="col-lg-6" id="centerBlock">
+                <img src="assets/images/blue.png" alt="blue" class="crystal" id="crystal1">
+                <img src="assets/images/green.png" alt="green" class="crystal" id="crystal2">
+                <img src="assets/images/gold.png" alt="gold" class="crystal" id="crystal3">
+                <img src="assets/images/red.png" alt="red" class="crystal" id="crystal4">
+            </div>
+            <div class="col-lg-3" id="rightBlock">
+                <div>YOUR SCORE:</div>
+                <div id="userScoreCounter">0</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="scoreBox">
+                <div class="row">
+                    <div class="col-lg-6">
+                        WINS: <span id="winsCounter">0</span>
+                    </div>
+                    <div class="col-lg-6">
+                            LOSSES: <span id="lossCounter">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
